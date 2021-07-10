@@ -34,4 +34,6 @@ console.log(newPeople);
 const names = people.map((person)=> `<h2>${person.name}</h2>`);
 const result = document.querySelector('#result');
 
-result.innerHTML = names;
+result.innerHTML = names.join(''); //点なし表示できる
+
+
