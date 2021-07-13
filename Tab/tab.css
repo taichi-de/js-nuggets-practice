@@ -1,0 +1,31 @@
+body{
+  background: #f3f3f3;
+}
+.tab {
+  width: 500px;
+  margin: 0 auto;
+}
+.tab-nav {
+  display: flex;
+}
+.tab-nav-item {
+  margin-right: 2px;
+  background: yellowgreen;
+  color: #3f3f3f;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px 5px 0 0;
+}
+.tab-nav-item.is-active {
+  background: green;
+  color: #f3f3f3;
+}
+.tab-contents {
+  padding: 20px;
+  color: #f3f3f3;
+  background: green;
+  border-radius: 0 0 5px 5px;
+}
+.tab-contents-item {
+  display: none;
+}
